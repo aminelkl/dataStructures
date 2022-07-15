@@ -1,4 +1,4 @@
-// Implementation of a linkedList
+// Implementation of a generic linkedList
 
 
 public class LinkedList<T> {
