@@ -1,9 +1,16 @@
-Algorithms library
+
+# Algorithms library
 Track of my Data structures learning journey 🧮
 
-Linked list
-Language used
-Java & C++
+- Linked list
+## Language used
 
-Authors
-@AmineLakhal
+Java & C++ 
+
+
+## Authors
+
+
+- [@AmineLakhal](https://github.com/aminelkl)
+
+
