@@ -34,11 +34,35 @@ public class doublyLinkedList {
 	}
 	
 	public void printListDesc() {
+	
+		if (head == null) {
+			return;
+		}
+		
+		Node node = new Node();
+		node = tail;
+		
+		while (node.previous != null) {
+			System.out.print(node.data + "--> ");
+			node = node.previous;
+		}
+		System.out.print(node.data);
 		
 	}
 	
-	
-    
-
+	public void insertFirst(int value) {
+        Node newNode = new Node();
+        newNode.data = value;
+        
+        if (isEmpty()) {
+        	tail = newNode;
+        }
+        else {
+        	head.previous = newNode;
+        }
+        newNode.next = head;
+        head = newNode;
+        size++;
+	}
 
 }
