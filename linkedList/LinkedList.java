@@ -83,5 +83,28 @@ public class LinkedList<T> {
 			travelNode.next = n1.next;
 		}
 	}
+	
+	// Reverse & print 
+	void reverse() {
+		Node previous = null;
+		Node current = head;
+		Node next = head ;
+		
+		while (current != null) {
+		 next = current.next;
+		 current.next = previous;
+		 previous = current;
+		 current = next;
+		}
+	    head = previous;
+	    
+	    Node n = new Node();
+		n = head;
+		while (n.next != null) {
+			System.out.println(n.data);
+			n = n.next;
+		}
+		System.out.println(n.data);
+	}
 
 }
