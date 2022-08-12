@@ -50,7 +50,7 @@ public class doublyLinkedList {
 		
 	}
 	
-	public void insertFirst(int value) {
+	public void insertAtFirst(int value) {
         Node newNode = new Node();
         newNode.data = value;
         
