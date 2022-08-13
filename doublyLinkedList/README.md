@@ -14,3 +14,4 @@ https://www.geeksforgeeks.org/doubly-linked-list/
 - printListAsc()
 - printListDesc()
 - insertAtFirst()
+- deleteFirst()
