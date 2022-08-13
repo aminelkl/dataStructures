@@ -64,5 +64,9 @@ public class doublyLinkedList {
         head = newNode;
         size++;
 	}
+	
+	public void deleteFirst() {
+		
+	}
 
 }
