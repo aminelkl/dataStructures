@@ -1,6 +1,7 @@
 /*
 Test case 
 expected output : [10, 9, 8, 7, 6, 5, 4, 3, 1]
+Size of the linked List : 9
 */
 
 public static void main(String[] args) {
@@ -25,4 +26,5 @@ public static void main(String[] args) {
 	    linky.removeAt(1);
 	    
 	    linky.reverse();
+	    System.out.println("Size of the linked List : " +linky.size);
 	}
