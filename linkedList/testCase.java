@@ -26,5 +26,5 @@ public static void main(String[] args) {
 	    linky.removeAt(1);
 	    
 	    linky.reverse();
-	    System.out.println("Size of the linked List : " +linky.size);
+	    linky.getSize();
 	}
