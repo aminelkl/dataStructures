@@ -1,9 +1,7 @@
-// Implementation of a generic linkedList
-
-
 public class LinkedList<T> {
 
 	public Node head;
+	public int size;
 
 	// Insert an element at the end of the linkedlist
 	void insertAtEnd(T data) {
@@ -23,6 +21,7 @@ public class LinkedList<T> {
 			}
 			travelNode.next = node;
 		}
+		size++;
 	}
 
 	// Print all elements
@@ -43,6 +42,7 @@ public class LinkedList<T> {
 
 		n.next = head;
 		head = n;
+		size++;
 	}
 
 	// Insert an element at an exact index
@@ -60,11 +60,13 @@ public class LinkedList<T> {
 			n.next = travelNode.next;
 			travelNode.next = n;
 		}
+		size++;
 	}
 
 	// Remove the first element
 	void removeFirst() {
 		head = head.next;
+		size--;
 	}
 
 	// remove an element at an exact index
@@ -82,6 +84,7 @@ public class LinkedList<T> {
 			n1 = travelNode.next;
 			travelNode.next = n1.next;
 		}
+		size--;
 	}
 	
 	// Reverse & print 
