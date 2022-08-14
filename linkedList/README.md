@@ -17,3 +17,4 @@ https://www.geeksforgeeks.org/data-structures/linked-list/
 - removeFirst()
 - removeAt()
 - inverse()
+- getSize()
