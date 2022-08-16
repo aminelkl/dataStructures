@@ -110,6 +110,7 @@ public class LinkedList<T> {
 		System.out.println(n.data);
 	}
 	
+	// get the size of the linkedlist
 	void getSize() {
 		System.out.println("Size of linked list : " + size);
 	}
