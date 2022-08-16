@@ -18,3 +18,4 @@ https://www.geeksforgeeks.org/data-structures/linked-list/
 - removeAt()
 - inverse()
 - getSize()
+- clear()
