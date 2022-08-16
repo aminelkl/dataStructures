@@ -114,5 +114,10 @@ public class LinkedList<T> {
 	void getSize() {
 		System.out.println("Size of linked list : " + size);
 	}
+	
+	void clear() {
+		head.data = null;
+		head.next = null;
+	}
 
 }
