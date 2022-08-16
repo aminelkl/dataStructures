@@ -2,6 +2,7 @@
 Test case 
 expected output : [10, 9, 8, 7, 6, 5, 4, 3, 1]
 Size of the linked List : 9
+After the clear() method, the list in empty but it doesn't delete previous node, it just take them out of the list
 */
 
 public static void main(String[] args) {
@@ -27,4 +28,9 @@ public static void main(String[] args) {
 	    
 	    linky.reverse();
 	    linky.getSize();
+	
+	System.out.println("---------");
+	    
+	    linky.clear();
+	    linky.show();
 	}
