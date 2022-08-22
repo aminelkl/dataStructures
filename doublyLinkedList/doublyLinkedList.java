@@ -66,7 +66,20 @@ public class doublyLinkedList {
 	}
 	
 	public void deleteFirst() {
+		if (isEmpty()) {
+			throw new NoSuchElementException();
+		}
 		
+	    Node temp = head;
+		if (head == tail) {
+		//manquant	 
+		}
+		else {
+			 head.next.previous = null;
+		}
+		head = head.next;
+		temp.next = null;
+		size--;
 	}
 
 }
