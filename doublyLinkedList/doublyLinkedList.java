@@ -72,7 +72,7 @@ public class doublyLinkedList {
 		
 	    Node temp = head;
 		if (head == tail) {
-		//manquant	 
+		tail = null;	 
 		}
 		else {
 			 head.next.previous = null;
