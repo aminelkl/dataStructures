@@ -1,3 +1,5 @@
+import java.util.NoSuchElementException;
+
 public class doublyLinkedList {
 
 	Node head;
@@ -80,6 +82,10 @@ public class doublyLinkedList {
 		head = head.next;
 		temp.next = null;
 		size--;
+	}
+	
+	public void insertAtEnd() {
+		
 	}
 
 }
