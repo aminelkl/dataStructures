@@ -16,6 +16,6 @@ https://www.geeksforgeeks.org/data-structures/linked-list/
 - insertAt()
 - removeFirst()
 - removeAt()
-- inverse()
+- reverse()
 - getSize()
 - clear()
