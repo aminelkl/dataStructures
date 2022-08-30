@@ -84,8 +84,19 @@ public class doublyLinkedList {
 		size--;
 	}
 	
-	public void insertAtEnd() {
+	public void insertAtEnd(int value) {
+		Node newNode = new Node();
+		newNode.data = value;
 		
+		if (isEmpty()) {
+			head = newNode;
+		}
+		else {
+			tail.next = newNode;
+			newNode.previous = tail;
+		}
+		 tail = newNode;
+		 size++;
 	}
 
 }
