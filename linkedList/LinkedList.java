@@ -26,6 +26,10 @@ public class LinkedList<T> {
 
 	// Print all elements
 	void show() {
+		if (head == null) {
+			System.out.println("The list is empty!");
+			return;
+		}
 		Node n = new Node();
 		n = head;
 		while (n.next != null) {
@@ -119,5 +123,20 @@ public class LinkedList<T> {
 		head.data = null;
 		head.next = null;
 	}
+	
+	void removeLast() {
+		if (head == null || head.next == null) {
+			head = null;
+			return;
+		}
+		Node current = head;
+		Node previous = null;
+		while (current.next != null) {
+			previous = current;
+			current = current.next;
+		}
+		previous.next = null;
+	}
+	
 
 }
