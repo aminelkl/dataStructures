@@ -11,8 +11,8 @@ https://www.geeksforgeeks.org/data-structures/linked-list/
 
 
 ***Implemented method***
-- insertAtEnd()
 - show()
+- insertAtEnd()
 - insertAtFirst()
 - insertAt(T data, int position)
 - removeFirst()
