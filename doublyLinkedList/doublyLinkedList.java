@@ -115,5 +115,32 @@ public class doublyLinkedList {
 		temp.previous = null;
 		size--;
 	}
+	
+	public void insertAt(int value, int position) {
+		Node newNode = new Node();
+		newNode.data = value; 
+		
+		if (position == 0) {
+			insertAtFirst(value);
+			return;
+		}
+		else if (position == size) {
+			insertAtEnd(value);
+			return;
+		}
+		else {
+			Node travelNode = head;
+		    for (int i = 1 ; i < position ; i++) {
+		    	travelNode = travelNode.next;
+		    }
+		    Node temp = travelNode.next;
+		    travelNode.next = newNode;
+		    newNode.previous = travelNode;
+		    newNode.next = temp;
+		    temp.previous = newNode;
+			}
+		size++;
+	}
+	
 
 }
