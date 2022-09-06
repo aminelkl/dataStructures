@@ -18,5 +18,5 @@ Java & C++
 - [@AmineLakhal](https://github.com/aminelkl)
 
 
-## References : 
+## Reference : 
 https://www.geeksforgeeks.org/
