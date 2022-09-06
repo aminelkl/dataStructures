@@ -142,5 +142,33 @@ public class doublyLinkedList {
 		size++;
 	}
 	
+	public void deleteAt(int position) {
+		if (position > size - 1) {
+			System.out.println("Can't delete, this element does not exist!");
+			size--;
+			return;
+		}
+		
+		if (position == 0) {
+			deleteFirst();
+			return;
+		}
+		else if (position == size - 1) {
+			deleteAtEnd();
+			return;
+		}
+		
+		Node travelNode = head;
+		for (int i = 0 ; i < position ; i++ ) {
+			travelNode = travelNode.next;
+		}
+		Node previous = travelNode.previous; 
+		Node next = travelNode.next;
+		
+		previous.next = next;
+		next.previous = previous;
+		size--;
+	}
+	
 
 }
