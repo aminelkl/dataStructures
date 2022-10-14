@@ -4,7 +4,7 @@ Track of my Data structures learning journey 🧮
 
 - Linked list
 - Doubly linked List
-- Stack using linked list
+- Stack using linked list and static array
 
 
 ## Language used
