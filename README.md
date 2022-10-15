@@ -5,7 +5,7 @@ Track of my Data structures learning journey 🧮
 - Linked list
 - Doubly linked List
 - Stack using linked list and static array
-
+- Queue using linked list and array
 
 ## Language used
 
