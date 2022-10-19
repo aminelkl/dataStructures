@@ -2,10 +2,10 @@
 # Algorithms library
 Track of my Data structures learning journey 🧮
 
-- Linked list
+- Single linked list
 - Doubly linked List
-- Stack using linked list and static array
-- Queue using linked list and static array
+- Stack using single linked list and static array
+- Queue using single linked list and static array
 
 ## Language used
 
