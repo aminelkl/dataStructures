@@ -4,8 +4,10 @@ Track of my Data structures learning journey 🧮
 
 - Single linked list
 - Doubly linked List
-- Stack using single linked list and static array
-- Queue using single linked list and static array
+- Stack using single linked list
+- Stack using static array
+- Queue using single linked list
+- Queue using static array
 
 ## Language used
 
